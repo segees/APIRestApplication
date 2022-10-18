@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/noahvaturi/Downloads/Final Project</OriginalElement>
+  <nodes>
+    <node x="1726.0" y="1378.0">com.example.finalproject.cocktailsNames.CocktailsNames</node>
+    <node x="240.0" y="2044.0">com.example.finalproject.services.UserService</node>
+    <node x="317.0" y="2445.0">com.example.finalproject.FinalProjectApplication</node>
+    <node x="1583.0" y="0.0">com.example.finalproject.models.Cocktail</node>
+    <node x="591.0" y="1788.0">com.example.finalproject.services.IngredientKindAPI</node>
+    <node x="0.0" y="2044.0">com.example.finalproject.dtos.ProfileDTO</node>
+    <node x="595.0" y="2445.0">com.example.finalproject.utils.SwaggerConf</node>
+    <node x="816.5" y="0.0">com.example.finalproject.utils.SimpleIdentifiableRepresentationModelAssembler</node>
+    <node x="1967.0" y="1788.0">com.example.finalproject.services.IngredientAPIClass</node>
+    <node x="1413.0" y="1378.0">com.example.finalproject.classes.ProfileLoggedCreds</node>
+    <node x="0.0" y="0.0">com.example.finalproject.services.CocktailAPIClass</node>
+    <node x="1262.0" y="415.0">com.example.finalproject.Entities.ProfileEntityAssembler</node>
+    <node x="2181.0" y="2300.0">com.example.finalproject.repos.IngredientRepo</node>
+    <node x="764.0" y="2044.0">com.example.finalproject.utils.AsyncCommands</node>
+    <node x="1924.0" y="0.0">com.example.finalproject.models.Ingredient</node>
+    <node x="2022.0" y="1378.0">com.example.finalproject.classes.ProfileCred</node>
+    <node x="287.0" y="0.0">com.example.finalproject.models.Profile</node>
+    <node x="934.0" y="2300.0">com.example.finalproject.dtos.ProfileDtoAssembler</node>
+    <node x="1399.0" y="2300.0">com.example.finalproject.utils.Security</node>
+    <node x="850.0" y="1378.0">com.example.finalproject.controllers.ProfileController</node>
+    <node x="956.0" y="415.0">com.example.finalproject.Entities.CocktailEntityAssembler</node>
+    <node x="0.0" y="1378.0">com.example.finalproject.controllers.CocktailController</node>
+    <node x="1247.0" y="2044.0">com.example.finalproject.repos.CocktailRepo</node>
+    <node x="1780.0" y="2300.0">com.example.finalproject.repos.ProfileRepo</node>
+    <node x="1686.0" y="1788.0">com.example.finalproject.services.IngredientKindAPIClass</node>
+    <node x="2246.0" y="1788.0">com.example.finalproject.exceptions.ApiErrorException</node>
+    <node x="0.0" y="2300.0">com.example.finalproject.exceptions.MainExceptionHandler</node>
+    <node x="0.0" y="2445.0">com.example.finalproject.FinalProjectApplicationTests</node>
+    <node x="999.0" y="1788.0">com.example.finalproject.services.IngredientAPI</node>
+    <node x="0.0" y="1788.0">com.example.finalproject.controllers.IngredientController</node>
+    <node x="1638.0" y="2044.0">com.example.finalproject.SeedDB</node>
+    <node x="1349.0" y="1788.0">com.example.finalproject.services.CocktailAPI</node>
+    <node x="637.0" y="415.0">com.example.finalproject.Entities.IngredientEntityAssembler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.finalproject.Entities.CocktailEntityAssembler" target="com.example.finalproject.utils.SimpleIdentifiableRepresentationModelAssembler" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="182.5" />
+    </edge>
+    <edge source="com.example.finalproject.Entities.IngredientEntityAssembler" target="com.example.finalproject.utils.SimpleIdentifiableRepresentationModelAssembler" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="786.5" y="390.0" />
+      <point x="1099.0" y="390.0" />
+      <point x="0.0" y="182.5" />
+    </edge>
+    <edge source="com.example.finalproject.Entities.ProfileEntityAssembler" target="com.example.finalproject.utils.SimpleIdentifiableRepresentationModelAssembler" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1400.0" y="390.0" />
+      <point x="1099.0" y="390.0" />
+      <point x="0.0" y="182.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.327284265963697" showDependencies="false" x="150.19619073104332" y="1975.946098603159" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
